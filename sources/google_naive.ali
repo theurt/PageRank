@@ -1,0 +1,138 @@
+V "GNAT Lib v10"
+A -p
+A -gnatwa
+A -gnata
+A -g
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U google_naive%b	google_naive.adb	22fe233b NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U google_naive%s	google_naive.ads	bce1d742 BN EE NE OO PK GE
+
+D ada.ads		20200723063517 76789da1 ada%s
+D a-except.ads		20200723063517 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200723063517 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200723063517 119b8fb3 ada.streams%s
+D a-tags.ads		20200723063517 491b781d ada.tags%s
+D a-textio.ads		20200723063517 aef4d56d ada.text_io%s
+D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
+D google_naive.ads	20210113145352 bce1d742 google_naive%s
+D google_naive.adb	20210113143318 30eb2114 google_naive%b
+D interfac.ads		20200723063517 5ab55268 interfaces%s
+D i-cstrea.ads		20200723063517 e53d8b8e interfaces.c_streams%s
+D system.ads		20200723063517 4635ec04 system%s
+D s-crtl.ads		20200723063517 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200723063517 54135002 system.exception_table%s
+D s-ficobl.ads		20200723063517 078245e4 system.file_control_block%s
+D s-parame.ads		20200723063517 48ec542b system.parameters%s
+D s-secsta.ads		20200723063517 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200723063517 a7318a92 system.soft_links%s
+D s-stache.ads		20200723063517 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
+D s-stoele.ads		20200723063517 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200723063517 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200723063517 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [google_naive standard 10 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 9|1r6 1r33
+X 6 a-textio.ads
+57K13*Text_IO 727e16 9|1w10 1r37
+264U14*New_Line 9|207s13
+392U14*Put 9|197s10 200s13 203s16 206s13 209s10
+465U14*Put 9|195s10
+X 8 google_naive.ads
+5i4 nombre_max_ligne{integer} 204r32
+6i4 nombre_max_colonne{integer} 204r52
+8F9 T_Element 77r108 96r131 148r86 187r47 204r75 9|31r108 43r132 57r20 79r28
+. 94r14 119r25 132r86
+10k9*Google_Naive 5z4 6z4 8z9 204E9 213l5 213e17 9|3b14 213l5 213t17
+12R9*T_Google_Naive 28r41 43r36 59r37 77r43 96r56 112r35 112r66 112r89 131r46
+. 131r77 131r100 148r56 166r36 166r67 184r43 184r74 199r38 206c9 211e17 9|5r41
+. 14r36 22r37 31r43 43r57 55r35 55r66 55r89 63r19 92r46 92r77 92r100 100r19
+. 132r56 146r36 146r67 167r43 167r74 188r38
+14X4*Dimensions_incompatibles_Error 9|47r16 72r16 110r16 174r16
+15X4*Invalid_indices_Error 9|35r16
+28U14*Initialiser 28<27 28>57 28>88 9|5b14 10l8 10t19 76s10 113s10
+28r27 matrice{12R9} 9|5b27 8m7 9m7
+28i57 dimensions_ligne{integer} 9|5b57 8r27
+28i88 dimensions_colonne{integer} 9|5b88 9r29
+43V13*Est_Vide{boolean} 43>23 9|14b13 18l8 18t16
+43r23 Matrice{12R9} 9|14b23 17r15 17r40
+59U14*Dimension 59>24 59<53 59<74 9|22b14 27l8 27t17 66s7 67s7 104s7 105s7
+59r24 Matrice{12R9} 9|22b24 25r16 26r18
+59i53 ligne{integer} 9|22b53 25m7
+59i74 colonne{integer} 9|22b74 26m7
+77V13*Get_coefficient{8F9} 77>30 77>59 77>79 9|31b13 39l8 39t23 121s36 121s72
+77r30 Matrice{12R9} 9|31b30 34r18 34r48 37r17
+77i59 ligne{integer} 9|31b59 34r10 37r33
+77i79 colonne{integer} 9|31b79 34r38 37r39
+96U14*Enregistrer_coefficient 96=39 96>72 96>92 96>114 9|43b14 51l8 51t31
+. 123s16
+96r39 Matrice{12R9} 9|43b39 46r10 46r42 49m10
+96i72 ligne{integer} 9|43b73 46r61 49r26
+96i92 colonne{integer} 9|43b93 46r31 49r32
+96*114 coefficient{8F9} 9|43b115 49r44
+112V13*Somme{12R9} 112>20 112>51 9|55b13 88l8 88t13
+112r20 Matrice_A{12R9} 9|55b20 66r17 81r31
+112r51 Matrice_B{12R9} 9|55b51 67r17 81r66
+131V13*Produit_matrices{12R9} 131>31 131>62 9|92b13 129l8 129t24
+131r31 Matrice_A{12R9} 9|92b31 104r17 113r32 115r26 121r52
+131r62 Matrice_B{12R9} 9|92b62 105r17 113r51 116r31 120r28 121r88
+148U14*Produit_scalaire_matrice 148=39 148>72 9|132b14 140l8 140t32
+148r39 Matrice{12R9} 9|132b39 135r23 136r28 137m13 137r54
+148*72 scalaire{8F9} 9|132b72 137r45
+166V13*Egalite{boolean} 166>21 166>52 9|146b13 163l8 163t15
+166r21 Matrice_A{12R9} 9|146b21 149r34 149r58 154r26 155r31 156r19
+166r52 Matrice_B{12R9} 9|146b52 149r10 149r79 156r55
+184U14*Affecter 184=24 184>59 9|167b14 183l8 183t16
+184r24 Matrice_A{12R9} 9|167b24 172r34 172r58 179m16
+184r59 Matrice_B{12R9} 9|167b59 172r10 172r79 177r26 178r31 179r52
+187U22 Afficher 187>32 9|202s16
+187*32 Un_Element{8F9}
+199u14*Affichage 199>25 9|188b14 211l8 211t17
+199r25 Matrice{12R9} 9|188b25 193r10 193r34 199r26 201r31 202r25
+204A9 T_Tableau(8F9)<integer><integer> 208r20
+208a10 tableau{204A9} 9|37r25 49m18 81r41 81r76 82m26 137m21 137r62 156r29
+. 156r65 179m26 179r62 202r33
+209i10 nb_ligne{integer} 9|8m15 17r23 25r24 34r26 46r50 113r42 115r36 120r38
+. 135r31 149r68 149r89 154r36 172r68 172r89 177r36 193r42 199r34
+210i10 nb_colonne{integer} 9|9m15 17r48 26r26 34r56 46r18 113r61 116r41 136r36
+. 149r20 149r44 155r41 172r20 172r44 178r41 193r18 201r39
+X 9 google_naive.adb
+57*7 coefficient{8|8F9} 79m13 81m16 82r52
+58i7 nb_ligne_A{integer} 66m27 70r10 76r32 78r26
+59i7 nb_ligne_B{integer} 67m27 70r24
+60i7 nb_colonne_A{integer} 66m38 70r38 76r43 80r31
+61i7 nb_colonne_B{integer} 67m38 70r54
+63r7 Matrice_C{8|12R9} 76m22 82m16 87r14
+78i14 ligne{integer} 81r49 81r84 82r34
+80i17 colonne{integer} 81r55 81r90 82r40
+94*7 somme{8|8F9} 119m16 121m19 121r28 123r64
+95i7 nb_ligne_A{integer} 104m27
+96i7 nb_ligne_B{integer} 105m27 108r26
+97i7 nb_colonne_A{integer} 104m38 108r10
+98i7 nb_colonne_B{integer} 105m38
+100r7 Matrice_C{8|12R9} 113m22 123m40 123r40 128r14
+115i14 ligne{integer} 121r62 123r50
+116i17 colonne{integer} 121r100 123r56
+120i20 k{integer} 121r68 121r98
+135i11 ligne{integer} 137r29 137r70
+136i14 colonne{integer} 137r35 137r76
+154i14 ligne{integer} 156r37 156r73
+155i17 colonne{integer} 156r43 156r79
+177i14 ligne{integer} 179r34 179r70
+178i17 colonne{integer} 179r40 179r76
+199i14 ligne{integer} 202r41
+201i17 colonne{integer} 202r47
+

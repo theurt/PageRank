@@ -1,0 +1,377 @@
+V "GNAT Lib v10"
+M P W=b
+A -p
+A -gnatwa
+A -gnata
+A -g
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U pagerank%b		pagerank.adb		264a570b NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.command_line%s	a-comlin.adb		a-comlin.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+Z ada.unchecked_deallocation%s
+Z conversion_type%s	conversion_type.adb	conversion_type.ali
+W google_creuse%s	google_creuse.adb	google_creuse.ali
+W google_naive%s	google_naive.adb	google_naive.ali
+W recuperation_argument%s  recuperation_argument.adb  recuperation_argument.ali
+Z system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.fat_sflt%s	s-fatsfl.ads		s-fatsfl.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tri_par_tas%s		tri_par_tas.adb		tri_par_tas.ali
+
+D ada.ads		20200723063517 76789da1 ada%s
+D a-charac.ads		20200723063517 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200723063517 66457d31 ada.characters.latin_1%s
+D a-comlin.ads		20200723063517 4aa66568 ada.command_line%s
+D a-except.ads		20200723063517 a7106115 ada.exceptions%s
+D a-finali.ads		20200723063517 bf4f806b ada.finalization%s
+D a-flteio.ads		20200723063517 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20200723063517 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200723063517 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200723063517 119b8fb3 ada.streams%s
+D a-string.ads		20200723063517 90ac6797 ada.strings%s
+D a-strmap.ads		20200723063517 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200723063517 1656705b ada.strings.unbounded%s
+D a-tags.ads		20200723063517 491b781d ada.tags%s
+D a-textio.ads		20200723063517 aef4d56d ada.text_io%s
+D a-tiflau.ads		20200723063517 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20200723063517 bf196650 ada.text_io.float_io%s
+D a-tiflio.adb		20200723063517 fd9b1cfc ada.text_io.float_io%b
+D a-tiinio.ads		20200723063517 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200723063517 eff36322 ada.unchecked_deallocation%s
+D conversion_type.ads	20201222101226 cb611809 conversion_type%s
+D conversion_type.adb	20201222101226 5c350021 conversion_type%b
+D google_creuse.ads	20210113145756 14cc3dff google_creuse%s
+D google_creuse.adb	20210113151244 9b31e581 google_creuse%b
+D google_naive.ads	20210113145352 bce1d742 google_naive%s
+D google_naive.adb	20210113143318 30eb2114 google_naive%b
+D interfac.ads		20200723063517 5ab55268 interfaces%s
+D i-cstrea.ads		20200723063517 e53d8b8e interfaces.c_streams%s
+D pagerank.adb		20210118184232 b3680295 pagerank%b
+D recuperation_argument.ads  20201222101226 75413bb9 recuperation_argument%s
+D recuperation_argument.adb  20210114070555 d644634f recuperation_argument%b
+D system.ads		20200723063517 4635ec04 system%s
+D s-assert.ads		20200723063517 cd8d2c94 system.assertions%s
+D s-atocou.ads		20200723063517 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20200723063517 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200723063517 54135002 system.exception_table%s
+D s-fatgen.ads		20200723063517 49cbaf86 system.fat_gen%s
+D s-fatsfl.ads		20200723063517 e2f873d3 system.fat_sflt%s
+D s-ficobl.ads		20200723063517 078245e4 system.file_control_block%s
+D s-finmas.ads		20200723063517 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200723063517 4ff27390 system.finalization_root%s
+D s-memory.ads		20200723063517 597d6634 system.memory%s
+D s-parame.ads		20200723063517 48ec542b system.parameters%s
+D s-secsta.ads		20200723063517 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200723063517 a7318a92 system.soft_links%s
+D s-stache.ads		20200723063517 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
+D s-stalib.adb		20200723063517 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200723063517 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200723063517 b16154c2 system.storage_pools%s
+D s-stposu.ads		20200723063517 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20200723063517 aedef97e system.stream_attributes%s
+D s-traent.ads		20200723063517 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200723063517 1b7d22d2 system.wch_con%s
+D tri_par_tas.ads	20210114070447 e207b76c tri_par_tas%s
+D tri_par_tas.adb	20201228204659 08b38b3d tri_par_tas%b
+G a e
+G c Z b b [pagerank standard 10 11 none]
+G r i none [pagerank standard 10 11 none] [google_naive standard 10 9 none]
+G r i none [pagerank standard 10 11 none] [tri_par_tas standard 14 9 none]
+G r i none [pagerank standard 10 11 none] [recuperation_argument standard 8 9 none]
+G r i none [pagerank standard 10 11 none] [conversion_type standard 9 9 none]
+G r i none [pagerank standard 10 11 none] [google_creuse standard 10 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 30|2r6 3r6 3r33 4r6 4r23 5r6 5r31 17r27 49r52 122r24 133r18
+. 337r24 348r18 605r19 647r21 657r10
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[19|46] 30|5w10 5r35 657r14
+X 9 a-ioexce.ads
+18K13*IO_Exceptions 30e22 30|2w10 133r22 348r22
+23X4*Name_Error 30|133r36 348r36
+X 11 a-string.ads
+16K13*Strings 35e16 30|3r10 3r37
+X 13 a-strunb.ads
+82K21*Unbounded 756e26 30|3w18 3r45
+87R9*Unbounded_String<6|43R9> 739e14 30|87r47 116r46 299r47 330r46 561r55
+. 599r57 606r23 644r55 648r25 669r40
+92V13*Length{natural} 30|697s14
+103V13*To_Unbounded_String{87R9} 30|609s43 651s45 700s24
+116V13*To_String{string} 30|131s40 152s36 346s40 367s36 583s11 611s34 653s36
+. 700s44
+151V14*"&"{87R9} 30|609s41 651s43
+X 15 a-textio.ads
+57K13*Text_IO 727e16 30|4w10 4r27 17r31 49r56 122r28 337r28 605r23 647r25
+64P9*File_Type 30|49r64 122r36 337r36 605r31 647r33
+66n23*In_File{66E9} 30|131r31 152r27 346r31 367r27
+66n32*Out_File{66E9} 30|611r24 653r26
+86I12*Field{integer}
+99U14*Create 30|611s7 653s7
+114U14*Open 30|131s13 152s10 346s13 367s10
+129U14*Close 30|141s10 168s10 356s10 382s10 631s7 661s7
+258U14*New_Line 30|621s7 629s10 659s10
+264U14*New_Line 30|567s7 571s7 581s7 584s7
+312V13*End_Of_File{boolean} 30|63s17 154s20 369s20
+386U14*Put 30|615s7 619s7
+465U14*Put 30|565s7 569s7 575s10 577s10 582s7 583s7
+X 17 a-tiflio.ads
+46k21*Float_IO 112e25 30|17r39
+69U14 Put 30|616s15[17] 625s18[17]
+70p7 File{15|64P9} 30|625r22[17]
+71f7 Item{30|12F9} 30|626r15[17]
+72i7 Fore{15|86I12} 30|617r19[17] 627r15[17]
+73i7 Aft{15|86I12} 30|618r19[17] 628r15[17]
+82U14 Put 30|566s7[17]
+84i7 Fore{15|86I12} 30|566r17[17]
+85i7 Aft{15|86I12} 30|566r25[17]
+X 19 a-tiinio.ads
+51U14*Get 30|64s10[8|18] 67s10[8|18] 136s10[8|18] 153s10[8|18] 157s13[8|18]
+. 159s13[8|18] 351s10[8|18] 368s10[8|18] 371s13[8|18] 373s13[8|18]
+68U14*Put 30|614s7[8|18] 620s7[8|18] 657s30[8|18]
+69p7 File{15|64P9} 30|657r34[8|18]
+70i7 Item{integer} 30|658r27[8|18]
+80U14*Put 30|570s7[8|18]
+X 24 google_creuse.ads
+7F9 T_Element 30|305r51
+8i4 nb_max_ligne{integer} 30|306r51
+10k9*google_creuse 217e18 30|8w6 305r37
+12R9 T_Google_Creuse 30|331r48[305] 397r54[305] 436r52[305] 454r45[305] 516r26[305]
+27U14 Initialiser 30|359s25[305]
+37U14 Detruire 30|538s22[305]
+87V13 Get_coefficient{30|12F9} 30|407s37[305] 474s51[305] 527s50[305]
+87r30 Matrice{12R9[30|305]} 30|474r67[305]
+87i60 ligne{integer} 30|474r80[305]
+87i80 colonne{integer} 30|474r91[305]
+106U14 Enregistrer_coefficient 30|362s31[305] 376s28[305] 414s34[305] 532s31[305]
+X 26 google_naive.ads
+5i4 nombre_max_ligne{integer} 30|19r40 93r50
+6i4 nombre_max_colonne{integer} 30|20r40 94r50
+8F9 T_Element 30|21r40 95r50
+10k9*Google_Naive 213e17 30|6w6 19r27 93r37
+12R9 T_Google_Naive 30|47r66[19] 90r43[19] 117r48[93] 123r37[19] 183r54[93]
+. 222r47[19] 223r52[93] 227r34[93] 229r35[93] 258r26[93] 302r43[19] 338r37[19]
+. 435r47[19] 451r53[19] 452r39[19] 492r28[19] 671r17[19]
+28U14 Initialiser 30|57s15[19] 144s25[93] 231s25[93] 240s25[93] 250s18[19]
+. 464s21[19] 496s18[19] 505s18[19]
+59U14 Dimension 30|463s21[19]
+77V13 Get_coefficient{30|12F9} 30|65s40[19] 165s68[19] 194s37[93] 252s67[93]
+. 269s50[93] 379s68[19] 483s39[19]
+96U14 Enregistrer_coefficient 30|59s18[19] 66s18[19] 147s31[93] 162s28[93]
+. 201s34[93] 235s28[93] 252s21[19] 270s28[93] 487s24[19] 500s21[19]
+131V13 Produit_matrices{12R9[30|93]} 30|244s60[93]
+184U14 Affecter 30|244s28[93] 245s28[93] 510s21[19]
+X 30 pagerank.adb
+10U11*pagerank 10b11 706l5 706t13
+12F9 T_precision<short_float> 17r48 21r62 23r53 25r58 53r28 59r63 66r93 86r37
+. 95r72 147r61 165r45 194r73 201r74 201r89 235r63 235r78 257r28 270r84 270r106
+. 298r37 305r69 362r61 379r45 407r73 414r74 414r89 438r41 453r34 457r27 458r38
+. 459r21 469r25 478r39 478r61 500r52 500r67 517r28 529r37 532r87 532r109
+. 558r45 603r46 665r12
+14i4 taille_tableau{integer} 20r62 23r37 93r72 94r72 306r69
+17K12 Real_IO[17|46] 17r66 616r7 625r10
+19K12 vecteur[26|10] 23r65 47r58 57r7 59r10 65r32 66r10 90r35 123r29 165r60
+. 222r39 250r10 252r13 302r35 338r29 379r60 435r39 451r45 452r31 463r13 464r13
+. 483r31 487r16 492r20 496r10 500r13 505r10 510r13 671r9
+23K12 tri[57|14] 600r46 645r44 672r12 692r4 693r4
+25K12 recup[31|8] 133r56 348r56 677r4
+47U14 Creer_vect_occurence 47b14 47<35 48>35 49>35 70l8 70t28 139s10 354s10
+47r35 noeuds_occurence{26|12R9[19]} 57m27 59m42 65r56 66m42
+48i35 N{integer} 57r46 58r19
+49p35 fichier_net{15|64P9} 63r29 64r14 67r14
+51i7 entier{integer} 64m26 65r75 66r62
+52i7 useless{integer} 67m26
+53f7 ancien_coefficient{12F9} 65m10 66r72
+58i11 i{integer} 59r61
+86U14 pagerank_t 86b14 86>26 87>26 88<26 89>26 90<26 277l8 277t18 685s7
+86f26 alpha{12F9} 270r58 270r99
+87r26 Nom_fichier_net{13|87R9} 262r15
+88i26 N{integer} 262m33 264r20 267r19 268r22 270r118 275r34
+89i26 iter_max{integer} 275r25
+90r26 PI{26|12R9[19]} 275m20
+93K15 matrice_pleine[26|10] 117r33 144r10 147r16 162r13 183r39 194r22 201r19
+. 223r37 227r19 229r20 231r10 235r13 240r10 244r13 244r45 245r13 252r52 258r11
+. 269r35 270r13
+116U17 Creer_H 116b17 116>25 117<25 118<25 170l11 170t18 262s7
+116r25 Nom_fichier_net{13|87R9} 131r50 152r46
+117r25 H{26|12R9[93]} 144m37 147m55 162m52
+118i25 N{integer} 136m26 139r48 144r39 144r41 145r22 146r25
+121i10 entier{integer} 153m26 157m29 158r24 159m29 160r24
+122p10 fichier_net{15|64P9} 131m18 131r18 136r14 139r50 141m16 141r16 152m15
+. 152r15 153r14 154r32 157r17 159r17 168m16 168r16
+123r10 noeuds_occurence{26|12R9[19]} 139m31 165r84
+124i10 coeff_i{integer} 158m13 163r45 165r103
+125i10 coeff_j{integer} 160m13 164r45
+145i14 i{integer} 147r57
+146i17 j{integer} 147r59
+183U17 Calculer_S 183b17 183=28 183>70 208l11 208t21 264s7
+183r28 H{26|12R9[93]} 194r53 201m58
+183i70 N{integer} 189r26 193r34 200r34 201r101
+185X10 coefficient_non_nul_Error 195r28 205r21
+189i14 ligne{integer} 194r55 201r60
+193i20 colonne{integer} 194r61
+200i20 colonne{integer} 201r66
+222U17 Calculer_PI 222b17 222<30 223>30 224>30 225>30 255l11 255t22 275s7
+222r30 PI{26|12R9[19]} 250m30 252m45
+223r30 H{26|12R9[93]} 244r84
+224i30 iter_max{integer} 241r30
+225i30 N{integer} 231r46 234r22 235r90 240r47 250r35 251r22
+227r10 Pi_mat{26|12R9[93]} 231m37 235m52 235r52 244r77 245m37 245r37 252r83
+228i10 iteration{integer} 239m10 241r17 246m13 246r26
+229r10 Pi_temp{26|12R9[93]} 240m37 244m37 244r37 245r44
+234i14 i{integer} 235r61
+251i14 i{integer} 252r50 252r92
+257f7 ancien_coefficient{12F9} 269m13 270r64
+258r7 H{26|12R9[93]} 262m31 264m18 264r18 269r66 270m52 270r52 275r23
+267i11 i{integer} 269r68 270r54
+268i14 j{integer} 269r70 270r56
+298U14 pagerank_c 298b14 298>26 299>26 300>26 301<26 302<26 539l8 539t18
+. 687s7
+298f26 alpha{12F9} 532r61 532r102 537r34
+299r26 Nom_fichier_net{13|87R9} 520r15
+300i26 iter_max{integer} 537r25
+301i26 N{integer} 520m33 522r20 525r19 526r22 532r121 537r40
+302r26 PI{26|12R9[19]} 537m20
+305K15 matrice_creuse[24|10] 331r33 359r10 362r16 376r13 397r39 407r22 414r19
+. 436r37 454r30 474r36 516r11 527r35 532r16 538r7
+330U17 Creer_H 330b17 330>25 331<25 332<25 384l11 384t18 520s7
+330r25 Nom_fichier_net{13|87R9} 346r50 367r46
+331r25 H{24|12R9[305]} 359m37 362m55 376m52
+332i25 N{integer} 351m26 354r48 359r39 359r41 360r22 361r25
+336i10 entier{integer} 368m26 371m29 372r24 373m29 374r24
+337p10 fichier_net{15|64P9} 346m18 346r18 351r14 354r50 356m16 356r16 367m15
+. 367r15 368r14 369r32 371r17 373r17 382m16 382r16
+338r10 noeuds_occurence{26|12R9[19]} 354m31 379r84
+339i10 coeff_i{integer} 372m13 377r45 379r103
+340i10 coeff_j{integer} 374m13 378r45
+360i14 i{integer} 362r57
+361i17 j{integer} 362r59
+397U17 Calculer_S 397b17 397=28 397>71 421l11 421t21 522s7
+397r28 H{24|12R9[305]} 407r53 414m58
+397i71 N{integer} 402r26 406r34 413r34 414r101
+399X10 coefficient_non_nul_Error 408r28 418r21
+402i14 ligne{integer} 407r55 414r60
+406i20 colonne{integer} 407r61
+413i20 colonne{integer} 414r66
+435U17 Calculer_PI 435b17 435<30 436>30 437>30 438>30 439>30 514l11 514t22
+. 537s7
+435r30 PI{26|12R9[19]} 496m30 500m45 509r31 510m30
+436r30 H{24|12R9[305]} 509r40
+437i30 iter_max{integer} 506r30
+438f30 alpha{12F9} 509r34
+439i30 N{integer} 496r35 499r22 500r79 505r40
+451U20 PI_fois_G 451b20 451<30 452>23 453>23 454>23 489l14 489t23 509s13
+451r30 Resultat{26|12R9[19]} 464m33 487m48
+452r23 PI{26|12R9[19]} 463r31 483r55
+453f23 alpha{12F9} 478r54
+454r23 G{24|12R9[305]} 474r78
+456i13 ligne{integer} 463m34 464r42
+456i19 colonne{integer} 463m40 464r48 467r25 472r28 478r73
+457f13 coefficient{12F9} 478m22 480m22 484r45
+458f13 coefficient_G{12F9} 474m19 477r22 480r37
+458f27 coeff_PI{12F9} 483m19 484r36
+459f13 somme{12F9} 469m16 484m19 484r28 487r61
+467i17 i{integer} 474r102 487r59
+472i20 j{integer} 474r89 483r60
+491i10 iteration{integer} 504m10 506r17 511m13 511r26
+492r10 Pi_temp{26|12R9[19]} 505m30 509m23 510r33
+499i14 i{integer} 500r50
+516r7 H{24|12R9[305]} 520m31 522m18 522r18 527r66 532m55 532r55 537r23 538m31
+. 538r31
+517f7 ancien_coefficient{12F9} 527m13 529r16 532r67
+525i11 i{integer} 527r68 532r57
+526i14 j{integer} 527r70 532r59
+558U14 Afficher_parametre 558b14 558>34 559>34 560>34 561>34 585l8 585t26
+. 680s4
+558f34 alpha{12F9} 566r11
+559i34 iter_max{integer} 570r11
+560b34 naive{boolean} 574r10
+561r34 Nom_fichier_net{13|87R9} 583r21
+599U14 Ecrire_fichier_poids 599b14 599>35 600>35 601>35 602>35 603>35 632l8
+. 632t28 702s4
+599r35 Nom_fichier_brut{13|87R9} 609r24
+600r35 poids{57|29R9[23]} 624r19 626r23
+601i35 N{integer} 614r21
+602i35 iter_max{integer} 620r22
+603f35 alpha{12F9} 616r30
+605p7 fichier_p{15|64P9} 611m14 611r14 614r11 615r11 616r19 619r11 620r11
+. 621r16 625r30 629r19 631m14 631r14
+606r7 Nom_fichier_p{13|87R9} 609m7 611r44
+624i11 i{integer} 626r37
+644U14 Ecrire_fichier_ord 644b14 644>33 645>33 662l8 662t26 705s4
+644r33 Nom_fichier_brut{13|87R9} 651r26
+645r33 poids{57|29R9[23]} 656r19 658r35
+647p7 fichier_ord{15|64P9} 653m14 653r14 657r41 659r19 661m14 661r14
+648r7 Nom_fichier_ord{13|87R9} 651m7 653r46
+656i11 i{integer} 658r49
+665f4 alpha{12F9} 677m35 680r23 685r18 687r18 702r59
+666i4 iter_max{integer} 677m42 680r30 685r42 687r40 702r50
+667i4 taille{integer} 697m4 700r74
+668b4 naive{boolean} 677m52 680r40 684r7
+669r4 Nom_fichier_net{13|87R9} 677m59 680r47 685r24 687r24 697r21 700r54
+669r21 Nom_fichier_brut{13|87R9} 700m4 702r25 705r23
+670i4 N{integer} 685m40 687m49 702r48
+671r4 PI{26|12R9[19]} 685m51 687m51 692r26
+672r4 poids{57|29R9[23]} 692m29 693m16 693r16 702r42 705r40
+X 31 recuperation_argument.ads
+6F9 T_alpha 30|25r47
+8k9*Recuperation_Argument 30|1w6 25r25 31|42e26
+14X4 File_Absent_Error 30|133r62[25] 348r62[25]
+40U14 Recuperer_valeurs_option 30|677s10[25]
+X 33 system.ads
+67M9*Address
+X 43 s-memory.ads
+53V13*Alloc{33|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{33|67M9} 105i<c,__gnat_realloc>22
+X 49 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 57 tri_par_tas.ads
+14k9*Tri_par_tas 30|7w6 23r23 57|79e16
+18R9 T_couple
+20i10 indice{integer} 30|658r52[23]
+21f10 weight{30|12F9} 30|626r40[23]
+26A9 T_vecteur(18R9[30|23])<integer>
+29R9 T_vecteur_couple 30|600r50[23] 645r48[23] 672r16[23]
+31a10 vecteur{26A9[30|23]} 30|626r29[23] 658r41[23]
+32i10 taille{integer} 30|624r25[23] 656r25[23]
+58U14 Initialiser_poids 30|692s8[23]
+75U14 Tri_tas 30|693s8[23]
+

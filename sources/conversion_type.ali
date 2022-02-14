@@ -1,0 +1,105 @@
+V "GNAT Lib v10"
+A -p
+A -gnatwa
+A -gnata
+A -g
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_NESTED_FINALIZATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U conversion_type%b	conversion_type.adb	97541828 NE OO PK GE
+
+U conversion_type%s	conversion_type.ads	dd376852 BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20200723063517 76789da1 ada%s
+D a-charac.ads		20200723063517 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200723063517 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200723063517 a7106115 ada.exceptions%s
+D a-finali.ads		20200723063517 bf4f806b ada.finalization%s
+D a-stream.ads		20200723063517 119b8fb3 ada.streams%s
+D a-string.ads		20200723063517 90ac6797 ada.strings%s
+D a-strmap.ads		20200723063517 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200723063517 1656705b ada.strings.unbounded%s
+D a-tags.ads		20200723063517 491b781d ada.tags%s
+D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
+D conversion_type.ads	20201222101226 cb611809 conversion_type%s
+D conversion_type.adb	20201222101226 5c350021 conversion_type%b
+D system.ads		20200723063517 4635ec04 system%s
+D s-atocou.ads		20200723063517 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20200723063517 54135002 system.exception_table%s
+D s-finmas.ads		20200723063517 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200723063517 4ff27390 system.finalization_root%s
+D s-parame.ads		20200723063517 48ec542b system.parameters%s
+D s-secsta.ads		20200723063517 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200723063517 a7318a92 system.soft_links%s
+D s-stache.ads		20200723063517 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
+D s-stoele.ads		20200723063517 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200723063517 b16154c2 system.storage_pools%s
+D s-stposu.ads		20200723063517 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20200723063517 aedef97e system.stream_attributes%s
+D s-traent.ads		20200723063517 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
+G a e
+G c Z s b [conversion_type standard 9 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|3r6 3r33
+X 7 a-string.ads
+16K13*Strings 35e16 12|3r10 3r37
+X 9 a-strunb.ads
+82K21*Unbounded 756e26 12|3w18 3r45
+87R9*Unbounded_String<5|43R9> 739e14 12|26r37 41r34 62r44 13|9r37 39r34 71r31
+. 76r31 130r43
+92V13*Length{natural} 13|17s17 82s24 110s35
+103V13*To_Unbounded_String{87R9} 13|109s35 119s52 121s69
+116V13*To_String{string} 13|24s34 93s16 102s62 109s55 119s72 121s89
+175V14*"&"{87R9} 13|102s60
+X 12 conversion_type.ads
+7F9 T_Element 41r59 62r73 13|39r59 73r24 115r30 116r46 119r31 120r46 121r48
+. 121r151 125r34 130r72
+9k9*Conversion_Type 7z9 65l5 65e20 13|3b14 152l5 152t20
+11X4*Bad_Type_Conversion_Error 13|28r19 84r16 140r15 147r21
+26V13*To_Integer{integer} 26>25 13|9b13 37l8 37t18 106s28 115s40 119s41 121s58
+. 143s26
+26r25 chaine{9|87R9} 13|9b25 17r24 24r44
+41V13*To_reel{7F9} 41>22 13|39b13 127l8 127t15 137s18
+41r22 chaine{9|87R9} 13|39b22 82r31 93r26 102r72 109r65
+62U14*Integer_or_reel 62>32 62<62 63<32 63<54 13|130b14 150l8 150t23
+62r32 chaine{9|87R9} 13|130b31 137r26 143r37
+62*62 reel{7F9} 13|130b61 137m10
+63i32 entier{integer} 13|131b31 134m7 143m16
+63e54 indicateur{character} 13|131b53 138m10 144m16 147m49
+X 13 conversion_type.adb
+5F9 ultra_precis<long_long_float> 53r60 54r21 61r25 63r28
+11i7 taille{integer} 17m7 21r24
+12i7 chiffre{integer} 24m10 27r13 27r28 32r34
+13i7 nombre{integer} 18m7 32m10 32r20 35r14
+21i11 indice{integer} 24r52
+53V16 puissance_10{5F9} 53b16 53>30 67l11 67t23 116s56 120s56 121s161
+53i30 exposant{integer} 58r13 62r25
+54f10 resultat{5F9} 61m13 63m16 63r46 65r20
+55X10 Exponant_Too_Big_error 59r19
+62i17 i{integer}
+70i7 taille_chaine{integer} 82m7 83r10 109r93
+71r7 chaine_partie_entiere{9|87R9} 102m13 102r38 106r39
+72i7 partie_entiere{integer} 106m10 125r44
+73*7 partie_decimal{12|7F9} 115m13 116m13 116r31 119m13 120m13 120r31 121m13
+. 121r31 125r17
+74i7 position_virgule{integer} 90m10 93r34 96m13 96r33 98m10 98r30 101r22
+. 109r73
+75b7 virgule_trouvee{boolean} 91m10 92r20 94m16
+76r7 chaine_partie_decimal{9|87R9} 109m10 110r42 115r51 119r82 121r99
+77i7 taille_partie_decimal{integer} 110m10 113r13 116r69 121r125 121r174
+101i14 i{integer} 102r80
+
